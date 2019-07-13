@@ -21,7 +21,7 @@ class Snakegame():
         self.snakeTailLength = 3
         self.snakeTailLocation = np.zeros((self.snakeTailLength,2), dtype = int)
 
-        self.appleLocation = [random.randint(0,self.gamesize),random.randint(0,self.gamesize)]
+        self.appleLocation = [random.randint(0,self.gamesize-1),random.randint(0,self.gamesize-1)]
         self.appleExst = True
         self.increaseRate = 3
 
