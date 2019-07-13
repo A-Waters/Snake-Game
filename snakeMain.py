@@ -133,13 +133,6 @@ class Snakegame():
 
         except:
             sys.exit()
-
-        
-        
-
-def wait():
-    m.getch()
-
     
 if __name__ == "__main__":
     while(True):
